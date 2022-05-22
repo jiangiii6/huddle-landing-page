@@ -93,7 +93,7 @@ p {
 @media only screen and (min-width:375px) and (max-width:1000px) {
     .container {
 
-        height: 115vh;
+        height: 130vh;
         background-size: 100vw 60vh;
         background-color: hsl(257, 40%, 49%);
         background-image: url(./images/bg-mobile.svg);
@@ -126,15 +126,22 @@ p {
     .detail {
         margin-left: 1rem;
         text-align: center;
+        max-width: 80%;
+    }
+
+    .detail h1{
+        font-size: 2rem;
+
     }
 
     .btn {
-        width: 15rem;
+        width: 10rem;
     }
 
     .icons {
         display: flex;
         margin-top: 2rem;
+        margin-left: 3rem;
         justify-content: center;
     }
 }
